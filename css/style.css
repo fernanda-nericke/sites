@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    background-color: #DDD5D0;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.galery-img {
+    width: 18%;
+    display: flex;
+}
+
+.pages {
+    background-color: #CFC0BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  
+    display: grid;
+    gap: 20px;
+  
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.products img {
+    width: 100%;
+}
+
+.map {
+    background-color: #DDD5D0;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
